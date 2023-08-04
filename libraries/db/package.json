@@ -1,0 +1,23 @@
+{
+  "name": "@libraries/db",
+  "version": "1.0.0",
+  "description": "DB Connection",
+  "private": "true",
+  "scripts": {
+    "start": "tsx bin/index.ts",
+    "prebuild": "rimraf dist",
+    "build": "rimraf dist && tsup",
+    "pretest": "rimraf coverage",
+    "typecheck": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest watch",
+    "test:CI": "pnpm run test && pnpm run typecheck",
+    "lint": "rome check ./src/**.ts",
+    "lint:fix": "rome check --apply ./src/**.ts",
+    "lint:fix:unsafe": "rome check --apply-unsafe ./src/**.ts",
+    "format": "rome format --write ./src/**.ts",
+    "ci": "rome ci ./src/**.ts"
+  },
+  "devDependencies": {
+  }
+}
