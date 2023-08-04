@@ -1,25 +1,5 @@
 {
-  "compilerOptions": {
-    "target": "ESNext",
-    "lib": [
-      "ESNext"
-    ],
-    "types": [
-      "vitest"
-    ],
-    "useDefineForClassFields": true,
-    "allowJs": false,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "module": "ESNext",
-    "moduleResolution": "bundler",
-    "resolveJsonModule": true,
-    "isolatedModules": false,
-    "noEmit": true
-  },
+  "extends": "../../tsconfig.json",
   "include": [
     "src",
     "bin",

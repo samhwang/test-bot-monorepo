@@ -8,7 +8,15 @@
   },
   "packageManager": "pnpm@8.1.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "turbo run test",
+    "lint": "turbo run lint",
+    "format": "turbo run format",
+    "typecheck": "turbo run typecheck",
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "dev:backend": "turbo run dev --filter=app-backend",
+    "dev:client": "turbo run dev --filter=app-client",
+    "dev:bot": "turbo run dev --filter=bot"
   },
   "author": "Sam Huynh <samhwang2112.dev@gmail.com>",
   "license": "ISC",
