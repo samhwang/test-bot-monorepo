@@ -1,0 +1,15 @@
+[build]
+  publish = "workspaces/app-client/dist/"
+  command = "pnpm run build"
+
+[functions]
+  directory = "workspaces/app-backend/src/functions/"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[dev]
+  autoLaunch = true
+  functionsPort = 8788
