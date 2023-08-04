@@ -33,4 +33,4 @@ yarn-error.log*
 .turbo
 
 # Local db for testing
-db_volume/data
+db_volume
