@@ -1,4 +1,4 @@
 packages:
-  - "workspaces/bot"
-  - "workspaces/db"
-  - "workspaces/app"
+  - "apps/bot"
+  - "apps/web"
+  - "libs/db"
