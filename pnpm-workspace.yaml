@@ -1,2 +1,4 @@
 packages:
-  - "workspaces/*"
+  - "workspaces/bot"
+  - "workspaces/db"
+  - "workspaces/app"

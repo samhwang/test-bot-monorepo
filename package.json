@@ -14,8 +14,7 @@
     "typecheck": "turbo run typecheck",
     "build": "turbo run build",
     "dev": "turbo run dev",
-    "dev:backend": "turbo run dev --filter=app-backend",
-    "dev:client": "turbo run dev --filter=app-client",
+    "dev:app": "turbo run dev --filter=app",
     "dev:bot": "turbo run dev --filter=bot"
   },
   "author": "Sam Huynh <samhwang2112.dev@gmail.com>",
