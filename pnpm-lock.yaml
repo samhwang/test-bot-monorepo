@@ -53,6 +53,9 @@ importers:
       '@trpc/server':
         specifier: ^10.37.1
         version: 10.37.1
+      db:
+        specifier: workspace:*
+        version: link:../db
       react:
         specifier: ^18.2.0
         version: 18.2.0

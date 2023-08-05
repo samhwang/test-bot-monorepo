@@ -17,5 +17,7 @@
     "format": "rome format --write ./src/**.ts",
     "ci": "rome ci ./src/**.ts"
   },
-  "devDependencies": {}
+  "dependencies": {
+    "db": "workspace:*"
+  }
 }
