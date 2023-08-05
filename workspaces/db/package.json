@@ -2,7 +2,6 @@
   "name": "db",
   "version": "1.0.0",
   "description": "DB Connection",
-  "private": "true",
   "scripts": {
     "prisma:migrate": "prisma migrate dev --skip-generate",
     "prisma:migrate:deploy": "prisma migrate deploy",
